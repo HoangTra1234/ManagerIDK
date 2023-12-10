@@ -1,0 +1,48 @@
+*{
+    color: black;
+}
+.lệnh{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+}
+header{
+    padding-top: 10px;
+}
+.product{
+    width: 100px;
+    height: 30px;
+    background-color: var(--phu-color);
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+.lệnhnhỏ{
+    width: 100px;
+    height: 30px;
+    text-decoration: underline;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+header{
+    background-color: var(--main-color);
+}
+.lenh:hover{
+    background-color: var(--phu-color);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.lệnhdai{
+    width: 120px;
+    height: 30px;
+    text-decoration: underline;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+.sp{
+    margin-top: 20px;
+}

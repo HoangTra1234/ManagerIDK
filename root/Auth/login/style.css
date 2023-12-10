@@ -1,0 +1,24 @@
+#submit{
+    width: 35%;
+    color:var(--white);
+    background-color: var(--black);
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    align-items: center;
+}
+.email{
+    
+    margin-bottom: 20px;
+    width: 30%;
+}
+.password{
+    margin-bottom: 20px;
+    width: 30%;
+}
+.login{
+    margin-bottom: 15px;
+}
+

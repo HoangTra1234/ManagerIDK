@@ -1,0 +1,64 @@
+*{
+    color: black;
+}
+.lệnh{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10px;
+
+}
+.lệnhnhỏ{
+    width: 100px;
+    height: 30px;
+    text-decoration: underline;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+header{
+    background-color: var(--main-color);
+
+}
+.lenh:hover{
+    background-color: var(--phu-color);
+    text-decoration: none;
+    transform: scale(1.1);
+}
+.lệnhdai{
+    width: 120px;
+    height: 30px;
+    text-decoration: underline;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 4px;
+}
+.timkiem{
+    padding-top: 10px;
+    height: 45px;
+    background-color: #c8eae3;
+    display: flex;
+    justify-content: space-around;
+}
+.sreach{
+    background-color: #b6d9d2;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px ;
+    padding-left: 30px;
+}
+.sreach::placeholder{
+    padding-left: 1px;
+   color: var(--white); 
+}
+.icon-sreach{
+    padding-top: 4.5px;
+    padding-left: 4.5px;
+    position:absolute;
+    cursor: pointer;
+}
+.sreach-bar{
+    display: flex;
+    flex-direction: row;
+}
